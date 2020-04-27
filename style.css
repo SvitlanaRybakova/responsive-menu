@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#content{
+    float: right;
+    /* border: 2px solid red; */
+
+    
+}
+h1{
+    font-size: 55px;
+    font-family: cursive;
+}
+
+#menu{
+    width: 250px;
+    /* высота видимой области */
+    height: 100vh;
+    background: black;
+    position: fixed;
+    left: -230px;
+    top: 0;
+    transition: all ease 1s;
+}
+
+li{
+    color: white;
+    font-size: 25px;
+    line-height: 50px;
+    margin-left: 60px;
+    
+}
+
+ul > li{
+    text-decoration: none;
+}
